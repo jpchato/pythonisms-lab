@@ -6,6 +6,7 @@ authors = ["jpchato <jpchato@gmail.com>"]
 
 [tool.poetry.dependencies]
 python = "^3.8"
+pytest = "^5.4.3"
 
 [tool.poetry.dev-dependencies]
 

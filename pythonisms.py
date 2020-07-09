@@ -45,7 +45,7 @@ class LinkedList:
         # return list(self)[index]
         if index < 0:
             raise IndexError
-        for i, item enumerate(self):
+        for i, item in enumerate(self):
             if i == index:
                 return item
         raise IndexError
