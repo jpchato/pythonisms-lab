@@ -1,13 +1,3 @@
-from functools import wraps
-
-### DECORATORS
-def proclaim(txt):
-    print('procalism starting')
-    return txt
-
-
-
-
 
 class LinkedList:
 
@@ -76,60 +66,3 @@ class Node:
 if __name__ == "__main__":
     pass
     
-    
-    # # yield will keep looping through but pauses
-    # def gen():
-    #     i = 0
-    #     while True:
-    #         yield i
-    #         i += 1
-    #     # for i in range(100):
-    #     #     yield i % 10
-    
-    # num_gtr = gen()
-
-    # for i in range(100):
-    #     print(next(num_gtr))
-
-    # print(num_gtr)
-
-    # # next is a built in method that operates on an iterator
-    # try:
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    #     print(next(num_gtr))
-    # except StopIteration:
-    #     print('complete')
